@@ -60,14 +60,18 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Eventbrite long description (around 150 words)
 `r params$description`
 
-The workshop is based on the teaching style of the Carpentries, and learners will follow along while the instructors write the code on screen. More information can be found on the `r params$workshop_website` (will be activated once registration is live, usually 3 weeks before the start of the workshop).
+The workshop is based on the teaching style of the Carpentries, meaning that learners will follow along while the instructors write their code on screen. 
+More information can be found on the `r params$workshop_website`, which will be activated once registrations are online, usually 3 weeks before the start of the workshop.
 
-Please be advised that by signing up, you agree to our Cancellation and No-Show Policy, which states that cancellations made less than 2 workings days prior to the event will incur a no-show fee. Please read the full policy [here](https://www.esciencecenter.nl/cancellation-and-no-show-policy-for-escience-center-training-events/) for more details. 
+Please be advised that by signing up, you agree to our Cancellation and No-Show Policy, which states that cancellations made less than 2 working days prior to the event will incur a no-show fee. 
+Read the full policy [here](https://www.esciencecenter.nl/cancellation-and-no-show-policy-for-escience-center-training-events/) for more details. 
 
-If you won’t be able to attend, please cancel your registration (by following the instructions [here](https://www.eventbrite.com/help/en-us/articles/721549/can-i-get-a-refund/)) so that we can offer your seat to someone on the waiting list.
+If you won’t be able to attend, please cancel your registration by following the instructions [here](https://www.eventbrite.com/help/en-us/articles/721549/can-i-get-a-refund/).
 
 ### Audience:
-The workshop is aimed at PhD candidates, postdocs, (assistant-)professors and other researchers and also open for research support staff and research software engineers. We offer tickets for researchers who are affiliated with Dutch research institutions. We also offer industry tickets for attendees who are not affiliated with Dutch research institutions. We do not accept registrations by Master students. 
+The workshop is aimed at PhD candidates, postdocs, (assistant-)professors and other researchers, and is also open for research support staff as well as research software engineers. 
+We offer tickets for researchers who are affiliated with Dutch research institutions, and also industry tickets for attendees who are not affiliated with Dutch research institutions. 
+Please note that we do not accept registrations by Master students. 
 
 ### Ticket prices:
 Ticket prices are as follows:
@@ -76,10 +80,12 @@ Ticket prices are as follows:
 - For participants from industry: €`r sprintf("%1.2f", params$industry_price)`
 
 #### Early Bird Discount 
-Register within the first week of open registration and receive a 25% discount on your participation fee. Don’t miss out on this opportunity to secure your spot at a reduced price!
+Register within the first week of open registration and receive a 25% discount on your participation fee. 
+Don’t miss out on this opportunity to secure your spot at a reduced price!
 
 #### Group Discount 
-Bring your team along and benefit from our group discount. Groups of five or more participants are eligible for a 25% discount. For more details and to register your group, please email us at [training@esciencecenter.nl](mailto:training@esciencecenter.nl). 
+Bring your team along and benefit from our group discount. Groups of five or more participants are eligible for a 25% discount, which would be on top of an early bird discount. 
+For more details and how to register your group, please email us at [training@esciencecenter.nl](mailto:training@esciencecenter.nl) with your group's affiliation and expected size. 
 
 ### Prerequisite knowledge:
 
@@ -100,25 +106,20 @@ We are excited for the `r params$workshop` workshop on `r params$date`, and hope
 
 A few notes:
 
-Be sure to complete this (pre-workshop survey)[pre-workshop survey] [1] by midday tomorrow. We use this to calibrate the pace of the workshop and, together with a post-workshop survey, to assess how it went.
+- Be sure to complete this [pre-workshop survey] [1] by midday tomorrow. We use this to calibrate the pace of the workshop and, together with a post-workshop survey, to assess how it went.
+- Make sure you have the necessary software installed on your laptop by following the `r params$setup_instructions ` [2]. If you have any trouble, please send us an email.
+- On the workshop days (`r params$date`), please join the call 15 minutes earlier (`r params$start_time`) if possible, to say hello to the instructors and fellow learners and to check if your audio and video setup works correctly. That will allow us to start teaching on time.
+- If you won’t be able to attend, please cancel your registration by following the instructions [here](https://www.eventbrite.com/help/en-us/articles/721549/can-i-get-a-refund/) [3])  so that we can offer your seat to someone on the waiting list.
+- Make sure to keep the `r params$workshop_website` [4] with all the necessary details handy.
+- Join the workshop session with the following [zoom link] [5]. Please make sure to log in with the name you have used for the registration. For safety reasons, people who cannot be recognized by the zoom user name will not be lead into the workshop.
 
-Make sure you have the necessary software installed on your laptop by following the `r params$setup_instructions ` [2]. If you have any trouble, send us an email.
+Let us know if you have any questions by emailing training@esciencecenter.nl. 
 
-On the workshop days (`r params$date`), please join the call 15 minutes earlier (`r params$start_time`) if possible, to say hello to the instructors and fellow learners and to check if your audio and video setup works correctly. That will allow us to start teaching on time.
-
-If you won’t be able to attend, please cancel your registration (by following instructions [here](https://www.eventbrite.com/help/en-us/articles/721549/can-i-get-a-refund/) [3])  so that we can offer your seat to someone on the waiting list.
-
-Make sure to keep the `r params$workshop_website` [4] with all the necessary details handy.
-
-Join the workshop session with the following (Zoom link)[zoom link] [5]. Please make sure to log in with the name you have used for the registration. For safety reasons, people who cannot be recognized by the zoom user name will not be let into the workshop.
-
-Let us know if you have any questions by emailing training@esciencecenter.nl. Otherwise, we will see you on `r params$day_of_workshop` from `r params$start_time`!
-
-Looking forward to seeing you soon!
+Otherwise, we are looking forward to see you on `r params$day_of_workshop` from `r params$start_time`!
 
 On behalf of the eScience Center Training Team,
 
-Sacha van Breugel
+Zowi Mens & Fenne Riemslagh
 
 
 Links
@@ -142,21 +143,17 @@ Hello,
 
 This is just a reminder for the `r params$workshop` workshop on `r params$date`.
 
-If you won’t be able to attend, please cancel your registration (by following instructions [here](https://www.eventbrite.com/help/en-us/articles/721549/can-i-get-a-refund/) [1])  so that we can offer your seat to someone on the waiting list.
-
-Make sure you have the necessary software installed on your laptop by following the `r params$setup_instructions ` [2]. If you have any trouble, send us an email.
-
-On the workshop days (`r params$date`), please join the call 15 minutes earlier (`r params$start_time`) if possible, to say hello to the instructors and fellow learners and to check if your audio and video setup works correctly. That will allow us to start teaching on time.
-
-Make sure to keep the `r params$workshop_website` [3] with all the necessary details handy.
-
-Join the workshop session with the following (Zoom link)[zoom link] [4]. Please make sure to log in with the name you have used for the registration. For safety reasons, people who cannot be recognized by the zoom user name will not be let into the workshop.
+- If you won’t be able to attend, please cancel your registration by following the instructions [here](https://www.eventbrite.com/help/en-us/articles/721549/can-i-get-a-refund/) [1].
+- Make sure you have the necessary software installed on your laptop by following the `r params$setup_instructions ` [2]. If you have any trouble, send us an email.
+- On the workshop days (`r params$date`), please join the call 15 minutes earlier (`r params$start_time`) if possible, to say hello to the instructors and fellow learners and to check if your audio and video setup works correctly. That will allow us to start teaching on time.
+- Make sure to keep the `r params$workshop_website` [3] with all the necessary details handy.
+- Join the workshop session with the following (Zoom link)[zoom link] [4]. Please make sure to log in with the name you have used for the registration. For safety reasons, people who cannot be recognized by the zoom user name will not be let into the workshop.
 
 Looking forward to seeing you on `r params$day_of_workshop`!
 
 On behalf of the eScience Center Training Team,
 
-Sacha van Breugel
+Zowi Mens & Fenne Riemslagh
 
 Links
 
@@ -176,21 +173,24 @@ Hello,
 
 Thank you for attending our `r params$workshop` workshop this week. We hope that you had fun and learned a lot of useful skills.
 
-If you haven’t already, please be sure to complete our (post-workshop survey)[post-workshop survey] [1]. Your answers are essential to allow us to continuously improve our workshops for future learners.
+If you haven’t already, please be sure to complete our [post-workshop survey] [1]. 
+Your answers are essential to allow us to continuously improve our workshops for future learners.
 
-You will shortly be able to find all the notebooks and collaborative documents from the workshop in [the files directory of the workshop repository](`r paste0(params$repo, "/tree/main/files")`) [2]. All the lesson material used in the lesson can be found `r params$lesson_url_ref` [3].
+You will shortly be able to find all the notebooks and collaborative documents from the workshop in [the files directory of the workshop repository](`r paste0(params$repo, "/tree/main/files")`) [2]. 
+All the lesson material used in the workshop can be found `r params$lesson_url_ref` [3].
 
-To request a certificate of your training, please email [training@esciencecenter.nl](mailto:training@esciencecenter.nl). Please request your certificate within 8 months after the workshop, as we will delete all personal identifiable information after this period.
+Within a few days after the workshop, you will receive a digital version of your certificate of attendance by mail. 
+We will delete all participants' personal identifiable information 8 months after the workshop.
 
 If you have any other feedback about the workshop, or would like to get involved in organizing workshops, please contact the eScience Center training team at [training@esciencecenter.nl](mailto:training@esciencecenter.nl).
 
-You can also follow us on [LinkedIn](https://www.linkedin.com/company/netherlands-escience-center/posts/?feedView=all) [4]. We are continuously organizing training events. You can find the list of upcoming events on the Center’s [website](https://www.esciencecenter.nl/events/?f-workshops/) [5].
-
-We would also like to encourage you to subscribe to our [newsletter](http://eepurl.com/dtjzwP) [6] and select 'Training' to get invited to training and related events organized by the Netherlands eScience Center.
+We are continuously organizing training events, and you can find the list of upcoming events on the Center’s [website](https://www.esciencecenter.nl/events/?f-workshops/) [5].
+You can also follow us on [LinkedIn](https://www.linkedin.com/company/netherlands-escience-center/posts/?feedView=all) [4]. 
+We would furthermore like to encourage you to subscribe to our [newsletter](http://eepurl.com/dtjzwP) [6] and select 'Training' to get invited to training and related events organized by the Netherlands eScience Center.
 
 On behalf of the eScience Center Training Team,
 
-Sacha van Breugel
+Zowi Mens & Fenne Riemslagh
 
 Links
 
