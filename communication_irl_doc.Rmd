@@ -190,7 +190,7 @@ You will receive a digital certificate of attendance within a few days after thi
 
 If you have any other feedback about the workshop, or would like to get involved in organizing workshops, please contact the eScience Center training team at [training@esciencecenter.nl](mailto:training@esciencecenter.nl).
 
-We are continuously organizing training events. You can follow us on [LinkedIn](https://www.linkedin.com/company/netherlands-escience-center/posts/?feedView=all) [4] and can find the list of upcoming events on the eSciene Center’s [website](https://www.esciencecenter.nl/events/?f-workshops/) [5].
+We are continuously organizing training events. You can follow us on [LinkedIn](https://www.linkedin.com/company/netherlands-escience-center/posts/?feedView=all) [4] and can find the list of upcoming events on the eScience Center’s [website](https://www.esciencecenter.nl/events/?f-workshops/) [5].
 
 We also encourage you to subscribe to our [newsletter](http://eepurl.com/dtjzwP) [6] and select 'Training' to get invited to trainings and related events organized by the Netherlands eScience Center.
 
